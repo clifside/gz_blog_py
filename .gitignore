@@ -5,3 +5,25 @@
 .coverage
 local_settings.py
 /static
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+__ConfigTemp/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
