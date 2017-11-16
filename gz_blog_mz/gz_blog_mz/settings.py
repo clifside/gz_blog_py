@@ -356,5 +356,6 @@ except ImportError:
 else:
     set_dynamic_settings(globals())
 
-WSGI_APPLICATION = 'gz_blog_mz.wsgi.application'
+WSGI_APPLICATION = PROJECT_APP+'.wsgi.application'
+
 
